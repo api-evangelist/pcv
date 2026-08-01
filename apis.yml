@@ -1,7 +1,18 @@
 aid: pcv
 name: PCV
-description: PCV is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Precision Cardiovascular (PCV) is a UK-based digital-health company advancing
+  cardiovascular care through continuous, AI-powered heart-failure monitoring.
+  Its flagship PULSENSE system pairs an implantable pulmonary-artery-pressure
+  (PAP) sensor insert and a wearable smart chest patch with an AI-powered
+  clinical app that surfaces real-time pressure trends and analytics for
+  clinicians and patients. The platform is designed to catch PAP fluctuations
+  that traditional spot-check measurements miss, including overnight and during
+  activity. PCV PULSENSE is an investigational device under regulatory review
+  (FDA, MHRA, EMA) and is not yet approved for commercial sale. The company was
+  surfaced as a portfolio company of 500 Global and profiled in the API
+  Evangelist network; it publishes no public API, developer portal, or SDK at
+  this time.
 url: https://raw.githubusercontent.com/api-evangelist/pcv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://framerusercontent.com/images/DWJloiRFCEKSG6feEW3EXGVzkaI.svg
 tags:
 - Company
+- Healthcare
+- Digital Health
+- Cardiovascular
+- Medical Devices
+- Remote Patient Monitoring
+- Heart Failure
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://precision-cv.com
+  url: https://www.precision-cv.com
+- type: Blog
+  url: https://www.precision-cv.com/insights
+- type: Support
+  url: https://www.precision-cv.com/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/precision-cv/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
